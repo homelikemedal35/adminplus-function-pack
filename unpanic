@@ -1,0 +1,9 @@
+gamerule sendcommandfeedback false
+setblock ~ ~-1 ~ air
+setblock ~ ~2 ~ air
+fill ~1 ~ ~ ~1 ~1 ~ air
+fill ~-1 ~ ~ ~-1 ~1 ~ air
+fill ~ ~ ~1 ~ ~1 ~1 air
+fill ~ ~ ~-1 ~ ~1 ~-1 air
+effect @s clear
+title @s actionbar ยง3You're out of panic.
